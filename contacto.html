@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0d77c37233.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="img/logo.ico">
+    <title>Esteban Tutoriales | Contacto</title>
+</head>
+
+<body>
+    <header>
+        <div class="container-header">
+            <h1>Esteban Tutoriales</h1>
+            <nav class="nav">
+                <a href="index.html">Inicio</a>
+                <a href="acerca_de_mi.html">Acerca de mi</a>
+                <a href="contacto.html" class="active">Contacto</a>
+            </nav>
+            <div id="main-container">
+                <div id="hamburger">
+                    <button>
+                        <span class="top-line"></span>
+                        <span class="middle-line"></span>
+                        <span class="bottom-line"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <article class="article-4">
+            <hr class="top">
+            <h2>Formulario de contacto</h2>
+            <form action="">
+                <label for="name">Nombre</label>
+                <input type="text" id="name" placeholder="Ingrese su nombre completo" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Ingrese su email" required>
+                <label for="asunto">Asunto</label>
+                <input list="asunto" placeholder="Ingrese el asunto" required>
+                <datalist id="asunto">
+                    <option value="Negocios">
+                    <option value="Educación">
+                    <option value="Contratar servicios">
+                    <option value="Reunión de trabajo">
+                    <option value="Otros asuntos">
+                </datalist>
+                <label for="mensaje">Mensaje</label>
+                <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Ingrese su mensaje" required></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+        </article>
+    </main>
+
+    <footer>
+        <hr class="top">
+        <p>Si deseas puedes seguirme en redes sociales</p>
+        <div class="container-rrss">
+            <a href="https://www.youtube.com/user/thuchileno/featured" target="_blank">
+                <i class="fab fa-youtube"></i>
+            </a>
+            <a href="https://www.instagram.com/esteban_dido.22/?hl=es" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://twitter.com/estebansubiabr2" target="_blank">
+                <i class="fab fa-twitter-square"></i>
+            </a>
+        </div>
+        <p>
+            <i class="far fa-copyright"></i> Esteban Tutoriales 2020
+        </p>
+    </footer>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
